@@ -1,0 +1,5 @@
+Name: Nathan Lin
+Login: cs61b-aqt
+SID: 21801993
+
+Sometimes a DListNode node willbe passed as a parameter to some method even if it's not part of the DList instance. For example, If another class that's not in our package is able to call the remove() method it can corrupt our DList. This is because it's possible use remove() on a node that's not in the DList.

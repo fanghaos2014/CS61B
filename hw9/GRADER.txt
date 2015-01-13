@@ -1,0 +1,9 @@
+Nathan Lin
+cs61b-aqt
+HW9
+
+You pick an arbitrary start point then choose a random direction to go in. It'll then check if that direction causes a loop or isn't a possible path. If it is either of those then it doesn't do the move and it goes back and picks another direction. It'll do this until you find one direction that works. It then adds that cell into the path. The process is then done from the new location until the maze is complete.
+
+a) It'll pick a random direction and if the cell it goes to hasn't already been visited, doesn't it'll add that cell to the path
+
+b) The starting point and the direction (1-4 will symbolize the directions...up,down,left,right) will be based on random numbers. As a result, you'll have a random starting point every time with a random initial direction for the path.
